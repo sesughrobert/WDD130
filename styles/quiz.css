@@ -10,19 +10,7 @@
     padding: 100px;
 }
 
-header {
-	margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 1fr 3fr;
-	align-items: center;
-	max-width: 100%;
-    background-color: #25383C;
-}
-header img {
-	margin: 1rem 0.25rem 1rem 3rem;
-	width: 90px;
-	height: auto;
-}
+
 
 footer {
     background-color: #25383C;
@@ -35,39 +23,13 @@ nav {
     float: right;
     margin-right: 20px;
 }
-.navigation {
-	display: flex;
-	list-style: none;
-    
-}
-
-.navigation li {
-	flex: 1 1 100%;
-    width: 25%;
-}
-
-.navigation a {
-	display: block;
-	color: #fff;
-	padding: 20px;
-    text-align: center;
-	text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-}
-
-.navigation a:hover {
-	color: black;
-    background-color: orange;
-	font-weight: 700;
-	text-decoration: none;
-}
 
 h3 {
     color: brown;
     font-family: sans-serif;
     font-weight: bold;
     padding: 20px;
+    text-align: center;
 }
 h1 {
     text-align: center;
