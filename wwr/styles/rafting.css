@@ -19,13 +19,21 @@ header {
 	grid-template-columns: 1fr 3fr;
 	align-items: center;
 	max-width: 100%;
-    background-color: steelblue;
+    background-color: #25383C;
 }
 header img {
 	margin: 1rem 0.25rem 1rem 3rem;
 	width: 90px;
 	height: auto;
 }
+
+footer {
+    background-color: #25383C;
+    height: 100px;
+    padding: 10px;
+}
+
+
 
 nav {
 	text-align: right;
@@ -47,17 +55,18 @@ nav {
 	display: block;
 	color: #fff;
 	padding: 20px;
+    text-align: center;
 	text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
 }
 
 .navigation a:hover {
-	color: tomato;
+	color: black;
+    background-color: orange;
 	font-weight: 700;
-	text-decoration: underline;
+	text-decoration: none;
 }
-
 
 .container {
     position: relative;
@@ -143,12 +152,14 @@ figure {
     float: left;
     width: 20%;
     padding: 5px;
+   
   }
 
   figure img {
     width: 220px;
     height: 220px;
     margin-right: 5px;
+    border: 2px solid black;
   }
 figcaption {
     background-color: #141414;
@@ -166,5 +177,19 @@ figcaption {
   }
 
   footer p {
-    margin-top: 50px;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .sociallinks {
+    display: flex;
+    
+    float: right;
+  }
+
+  .sociallinks img {
+    width: 32px;
+    height:32px;
+    margin-right: 5px;
   }
