@@ -231,3 +231,12 @@ article p {
   text-align: center;
   font-weight: bold;
 }
+
+.wireframe {
+  width: auto;
+  height: auto;
+}
+
+.wire {
+  max-width: 98%;
+}
