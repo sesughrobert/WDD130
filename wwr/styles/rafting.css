@@ -285,7 +285,7 @@ figcaption {
   }
 
   .btn-3 {
-    background-color: #152c41;
+    background-color: #85042b;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     color: white;
@@ -302,3 +302,37 @@ figcaption {
     color: #444;
     padding: 20px;
   }
+
+  .media {
+    margin-bottom: 2em;
+    padding: 30px;
+  }
+  
+   .media {
+    display: grid;
+    grid-column-gap: 20px;
+  }
+
+    .media img {
+      margin-right: 20px;
+      float: left;
+   
+  }
+  
+ 
+  .media-flip {
+    margin-bottom: 2em;
+    padding: 30px;
+  }
+  
+   .media-flip {
+    display: grid;
+    grid-column-gap: 20px;
+  }
+
+    .media-flip img {
+      margin-left: 20px;
+      float: right;
+   
+  }
+  
