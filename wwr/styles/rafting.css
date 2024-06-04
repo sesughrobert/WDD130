@@ -242,3 +242,63 @@ figcaption {
   .wire {
     max-width: 98%;
   }
+
+  /* WWR Home Page */
+
+  .container-raft {
+    position: relative;
+    max-width: 100%; 
+    margin: 0 auto; 
+  }
+  
+  .container-raft .content {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%; 
+    padding: 20px; 
+  }
+
+  .btn-2 {
+    background-color: #d8085f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+  }
+
+  input {
+    width: 30%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical
+  }
+
+  .btn-3 {
+    background-color: #152c41;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+  }
+
+  .info {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    padding: 20px;
+  }
